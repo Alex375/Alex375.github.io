@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="src/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e69970d383.js" crossorigin="anonymous"></script>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="src/images/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="src/images/favicon_io/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="src/images/favicon_io/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="src/images/favicon_io/site.webmanifest">
+        <link rel="mask-icon" href="src/images/favicon_io/apple-touch-icon.png" color="#5bbad5">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>Portfolio</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <section class="hero">
+            <nav>
+                <img class="logo" src="src/images/AJ.png" alt="AJ logo ">
+                <ul id="nav-list">
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+            <div class="hero-area">
+                <div class="hero-text">
+                    <h1>Alexandre Josien</h1>
+                    <p>Software enginer</p>
+                    <div class="button"><a href="#about-me">About me</a></div>
+                </div>
+                <div class="socials">
+                    <div>
+                        <a href="https://www.linkedin.com/in/alexandre-josien/" class="social">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/Alex375" class="social">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sub-section" id="about-me">
+            <div class="information">
+                <h2>About me</h2>
+                <p>Hello my name is Alexandre Josien. I'm a fourth year computer science and engineering student at EPITA in Paris France🇫🇷.</p>
+                <div class="download-area">
+                    <div class="download-button"><a href="/src/resumes/CV_alexandre_josien.pdf" download>Download CV (EU)</a></div>
+                    <div class="download-button"><a href="/src/resumes/Resume_Alexandre_Josien.pdf" download>Download Resume</a></div>
+                </div>
+            </div>
+            <div class="headshot-container">
+                <img class="headshot" src="src/images/alexandre.josien%20shrink.jpeg" alt="Alexandre Josien headshot">
+            </div>
+        </section>
+        <section class="sub-section-alternative" id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <img class="project-image" src="src/images/projects-images/image-project1.png" alt="Project one image">
+                    <div class="project-title">
+<!--                        <svg class="project-technology" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;!&ndash;! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. &ndash;&gt;<path d="M448 156.09c0-4.51-.08-9-.2-13.52a196.31 196.31 0 0 0-2.58-29.42 99.62 99.62 0 0 0-9.22-28A94.08 94.08 0 0 0 394.84 44a99.17 99.17 0 0 0-28-9.22 195 195 0 0 0-29.43-2.59c-4.51-.12-9-.17-13.52-.2H124.14c-4.51 0-9 .08-13.52.2-2.45.07-4.91.15-7.37.27a171.68 171.68 0 0 0-22.06 2.32 103.06 103.06 0 0 0-21.21 6.1q-3.46 1.45-6.81 3.12a94.66 94.66 0 0 0-18.39 12.32c-1.88 1.61-3.69 3.28-5.43 5A93.86 93.86 0 0 0 12 85.17a99.45 99.45 0 0 0-9.22 28 196.31 196.31 0 0 0-2.54 29.4c-.13 4.51-.18 9-.21 13.52v199.83c0 4.51.08 9 .21 13.51a196.08 196.08 0 0 0 2.58 29.42 99.3 99.3 0 0 0 9.22 28A94.31 94.31 0 0 0 53.17 468a99.47 99.47 0 0 0 28 9.21 195 195 0 0 0 29.43 2.59c4.5.12 9 .17 13.52.2H323.91c4.51 0 9-.08 13.52-.2a196.59 196.59 0 0 0 29.44-2.59 99.57 99.57 0 0 0 28-9.21A94.22 94.22 0 0 0 436 426.84a99.3 99.3 0 0 0 9.22-28 194.79 194.79 0 0 0 2.59-29.42c.12-4.5.17-9 .2-13.51V172.14c-.01-5.35-.01-10.7-.01-16.05zm-69.88 241c-20-38.93-57.23-29.27-76.31-19.47-1.72 1-3.48 2-5.25 3l-.42.25c-39.5 21-92.53 22.54-145.85-.38A234.64 234.64 0 0 1 45 290.12a230.63 230.63 0 0 0 39.17 23.37c56.36 26.4 113 24.49 153 0-57-43.85-104.6-101-141.09-147.22a197.09 197.09 0 0 1-18.78-25.9c43.7 40 112.7 90.22 137.48 104.12-52.57-55.49-98.89-123.94-96.72-121.74 82.79 83.42 159.18 130.59 159.18 130.59 2.88 1.58 5 2.85 6.73 4a127.44 127.44 0 0 0 4.16-12.47c13.22-48.33-1.66-103.58-35.31-149.2C329.61 141.75 375 229.34 356.4 303.42c-.44 1.73-.95 3.4-1.44 5.09 38.52 47.4 28.04 98.17 23.13 88.59z"/></svg>-->
+                        <h3>Sport With Me</h3>
+                    </div>
+                    <p class="subtext">An mobile application that allows its users to create groups to perform sports sessions together and find sport session around them.</p>
+                    <div class="project-link-container">
+                        <hr/>
+                        <p class="subtext"><a class="project-link" href="src/SWM/SWM.html">View here</a></p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="src/images/projects-images/image-project2.png" alt="Project one image">
+                    <h3>iSeg 2017</h3>
+                    <p class="subtext">Brain tissue segmentation on brain MRI. Using CNN/U-Net.</p>
+                    <div class="project-link-container">
+                        <hr/>
+                        <p class="subtext"><a class="project-link" href="https://iseg2017.web.unc.edu">View here</a></p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="src/images/projects-images/image-project3.png" alt="Project one image">
+                    <h3>OCR</h3>
+                    <p class="subtext">An OCR (Optical Character Recognition) made in C with a neural network and image treatment.</p>
+                    <div class="project-link-container">
+                        <hr/>
+                        <p class="subtext"><a class="project-link" href="https://github.com/lucaspluchon/OCR_S3">View here</a></p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="src/images/projects-images/image-project4.png" alt="Project one image">
+                    <div class="project-title">
+<!--                        <svg class="project-technology" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;!&ndash;! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. &ndash;&gt;<path d="M243.583 91.6027L323.695 138.384C326.575 140.026 326.68 144.583 323.695 146.225L228.503 201.854C225.623 203.55 222.22 203.444 219.549 201.854L124.357 146.225C121.425 144.636 121.373 139.973 124.357 138.384L204.417 91.6027V0L0 119.417V358.252L78.3843 312.477V218.914C78.3319 215.576 82.2066 213.192 85.0865 214.993L180.279 270.622C183.159 272.318 184.782 275.338 184.782 278.464V389.669C184.834 393.007 180.959 395.391 178.079 393.589L97.9673 346.808L19.583 392.583L224 512L428.417 392.583L350.033 346.808L269.921 393.589C267.093 395.338 263.114 393.06 263.218 389.669V278.464C263.218 275.126 265.051 272.159 267.721 270.622L362.914 214.993C365.741 213.245 369.72 215.47 369.616 218.914V312.477L448 358.252V119.417L243.583 0V91.6027Z"/></svg>-->
+                        <h3>Night Watch</h3>
+                    </div>
+                    <div class="project-link-container">
+                        <p class="subtext">Horror video game with solo and multiplayer mode.</p>
+                        <hr/>
+                    </div>
+                    <p class="subtext"><a class="project-link" href="https://github.com/Alex375/NightWatch">View here</a></p>
+                </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <h2>Contact me</h2>
+            <p><a href="mailto:alexandre.josien@gmail.com">alexandre.josien@gmail.com</a></p>
+        </footer>
+
+        <script src="src/app.js"></script>
+    </body>
+</html>
